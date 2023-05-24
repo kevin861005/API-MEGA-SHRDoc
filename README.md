@@ -10,9 +10,9 @@ https://114.34.125.246:8090/servlet/apiM/megaOtp/V1/interfaces/apiCheckOtp
 
 ```
 
-### HTTP Request Mehod
+### HTTP Request Method
 ```
-POST
+GET
 ```
 
 ### Program list
