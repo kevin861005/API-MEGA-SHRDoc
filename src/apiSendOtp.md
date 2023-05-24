@@ -19,8 +19,8 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "phone": "0978321626",
-    "employeeId": "000014"
+    "phone": "0958000000",
+    "employeeId": "5000"
   },
 }
 ```
@@ -34,8 +34,8 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| phone | "0978321626" | String | 手機號碼 | N | n/a |
-| employeeId | "000014" | String | 員工編號 | N | n/a |
+| phone | "0958000000" | String | 手機號碼 | N | n/a |
+| employeeId | "5000" | String | 員工編號 | N | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
