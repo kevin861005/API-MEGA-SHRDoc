@@ -1,7 +1,7 @@
 # megaOTP-Document
 
 megaOTP Web API Document
-提供 iOS / Android Web 互動 API
+提供 iOS / Android 互動 API
 
 ### HTTP Request
 ```
