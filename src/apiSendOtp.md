@@ -20,7 +20,7 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     "phone": "0978321626",
-    "employeeId": "L110798"
+    "employeeId": "000014"
   },
 }
 ```
@@ -35,7 +35,7 @@ Here is a JSON representation of request.
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | phone | "0978321626" | String | 手機號碼 | N | n/a |
-| employeeId | "L110798" | String | 員工編號 | N | n/a |
+| employeeId | "000014" | String | 員工編號 | N | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
