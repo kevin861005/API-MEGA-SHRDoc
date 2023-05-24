@@ -19,8 +19,8 @@ Here is a JSON representation of request.
   "requestHeader": {
   },
   "requestBody": {
-    "phone": "0978321626"
-    ,"employeeId": "L110798"
+    "phone": "0978321626",
+    "employeeId": "L110798"
   },
 }
 ```
