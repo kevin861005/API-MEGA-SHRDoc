@@ -20,7 +20,8 @@ Here is a JSON representation of request.
   },
   "requestBody": {
     "phone": "0978321626",
-    "otp": "850921"
+    "otp": "850921",
+    "employeeId": "5000"
   },
 }
 ```
@@ -56,6 +57,7 @@ Here is a JSON representation of request.
       "responseDate":"2023/05/24",
       "returnCode":"0000",
       "returnDesc":"成功"
+      "returnUrl":"http://localhost/servlet/jform?file=hrm8w_mega.dat&locale=TW"
    }
 }
 ```
