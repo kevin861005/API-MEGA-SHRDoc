@@ -2,14 +2,18 @@
 重新取得Token
 
 ### HTTP Request
+```
 http://59.124.100.151:8090/servlet/apiM/megaOtp/V1/interfaces/apiRefreshToken
+```
 
 ### HTTP Request Mehod
+```
 POST
+```
 
 ### JSON representation
-
 Here is a JSON representation of request.
+```
 json
 {
   "requestHeader": {
@@ -18,6 +22,7 @@ json
     "token": "xxx"
   }
 }
+```
 
 ### Properties
 | Property | Type | Description |
@@ -40,8 +45,8 @@ json
 ### Note
 只要 isSuccess 為 false，或是 resultCode = 500 或 resultCode = 406，就顯示錯誤訊息，點擊後回到微軟登入畫面
 
-
 ### HTTP Response when Successful
+```
 json
 {
    "responseHeader":{
@@ -54,11 +59,13 @@ json
       "refreshToken":""
    }
 }
+```
 
 ### HTTP Response when No Data
 此程式不會有查無資料發生
 
 ### HTTP Response when Failed
+```
 json
 {
     "responseHeader": {
@@ -68,8 +75,10 @@ json
     "responseBody": {
     }
 }
+```
 
 ### HTTP Response when Exception
+```
 json
 {
     "responseHeader": {
@@ -79,3 +88,4 @@ json
     "responseBody": {
     }
 }
+```
