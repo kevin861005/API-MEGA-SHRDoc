@@ -20,3 +20,4 @@ GET
 |:----------|:----------|:----------|:----------|:----------|:----------|:----------|
 | 01 | 產生OTP | apiSendOtp | Y | 產生簡訊OTP | kelvin | 20230524 |
 | 02 | 驗證OTP | apiCheckOtp | Y | 驗證簡訊OTP | kelvin | 20230524 |
+| 02 | 刷新token | apiRefreshToken | Y | 刷新token | kevin | 20230907 |
