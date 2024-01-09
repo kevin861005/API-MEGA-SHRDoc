@@ -37,7 +37,7 @@ json
 | device | iOS/Android | String | 裝置型別 | Y | n/a |
 | employeeId | xxx | String | 員工編號 | iOS(Y)/Android(N) | n/a |
 
-### requestBody FieldName
+### responseBody FieldName
 | FieldName | Description |
 |:----------|:-------------|
 | url | 兌換碼更新網址 |
