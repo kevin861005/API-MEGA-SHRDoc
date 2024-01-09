@@ -35,7 +35,7 @@ json
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
 | device | iOS/Android | String | 裝置型別 | Y | n/a |
-| employeeId | xxx | String | 員工編號 | iOS(N)/Android(Y) | n/a |
+| employeeId | xxx | String | 員工編號 | iOS(Y)/Android(N) | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
