@@ -21,7 +21,11 @@ Here is a JSON representation of request.
   "requestBody": {
     "phone": "0978321626",
     "otp": "850921",
-    "employeeId": "5000"
+    "employeeId": "5000",
+    "nationCode": "886",
+    "device": "ios",
+    "token": "xxx",
+    "phoneModel" "xxx"
   },
 }
 ```
@@ -35,8 +39,13 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| phone | "0978321626" | String | 手機號碼 | N | n/a |
-| otp | "850921" | String | 驗證碼 | N | n/a |
+| phone | "0978321626" | String | 手機號碼 | Y | n/a |
+| otp | "850921" | String | 驗證碼 | Y | n/a |
+| employeeId | "850921" | String | 員工編號 | Y | n/a |
+| nationCode | "850921" | String | 國籍代碼 | Y | n/a |
+| device | "850921" | String | 裝置類型 | Y | n/a |
+| token | "850921" | String | token | Y | n/a |
+| phoneModel | "850921" | String | 裝置型號 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
