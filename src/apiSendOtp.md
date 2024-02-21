@@ -35,9 +35,9 @@ Here is a JSON representation of request.
 ### requestBody Properties
 | Key | Value | Type | Description | Required | Format |
 |:----------|:-------------|:-----|:------------|:------------|:------------|
-| phone | "0958000000" | String | 手機號碼 | N | n/a |
-| employeeId | "5000" | String | 員工編號 | N | n/a |
-| nationCode | "886" | String | 國籍代碼 | N | n/a |
+| phone | "0958000000" | String | 手機號碼 | Y | n/a |
+| employeeId | "5000" | String | 員工編號 | Y | n/a |
+| nationCode | "886" | String | 國籍代碼 | Y | n/a |
 
 ### requestBody FieldName
 | FieldName | Description |
